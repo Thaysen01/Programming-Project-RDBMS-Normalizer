@@ -1,0 +1,9 @@
+[
+    {"lhs": ["OrderID"], "rhs": ["DrinkID", "FoodID"]},
+    {"lhs": ["OrderID"], "rhs": ["Date", "TotalCost", "TotalDrinkCost", "TotalFoodCost", "CustomerID", "CustomerName"]},
+    {"lhs": ["OrderID", "DrinkID"], "rhs": ["DrinkSize", "DrinkQuantity", "Milk"]},
+    {"lhs": ["OrderID", "FoodID"], "rhs": ["FoodQuantity"]},
+    {"lhs": ["CustomerID"], "rhs": ["CustomerName"]},
+    {"lhs": ["DrinkID"], "rhs": ["DrinkName"]},
+    {"lhs": ["FoodID"], "rhs": ["FoodName"]}
+]
